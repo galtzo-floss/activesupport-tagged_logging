@@ -41,21 +41,21 @@ RSpec.describe ActiveSupport::TaggedLogging do
   end
 
   it "tagged with an array" do
-    @logger.tagged(%w(BCX Jason New)) { @logger.info "Funky time" }
+    @logger.tagged(%w[BCX Jason New]) { @logger.info "Funky time" }
     assert_equal "[BCX] [Jason] [New] Funky time\n", @output.string
   end
 
   it "tagged are flattened" do
-    @logger.tagged("BCX", %w(Jason New)) { @logger.info "Funky time" }
+    @logger.tagged("BCX", %w[Jason New]) { @logger.info "Funky time" }
     assert_equal "[BCX] [Jason] [New] Funky time\n", @output.string
   end
 
   it "push and pop tags directly" do
-    assert_equal %w(A B C), @logger.push_tags("A", ["B", "  ", ["C"]])
+    assert_equal %w[A B C], @logger.push_tags("A", ["B", "  ", ["C"]])
     @logger.info "a"
-    assert_equal %w(C), @logger.pop_tags
+    assert_equal %w[C], @logger.pop_tags
     @logger.info "b"
-    assert_equal %w(B), @logger.pop_tags(1)
+    assert_equal %w[B], @logger.pop_tags(1)
     @logger.info "c"
     assert_equal [], @logger.clear_tags!
     @logger.info "d"
@@ -173,7 +173,7 @@ RSpec.describe ActiveSupport::TaggedLogging do
     end
 
     it "tagged are flattened" do
-      @logger.tagged("BCX", %w(Jason New)).info "Funky time"
+      @logger.tagged("BCX", %w[Jason New]).info "Funky time"
       assert_equal "[BCX] [Jason] [New] Funky time\n", @output.string
     end
 

@@ -79,6 +79,16 @@ Please file a bug if you notice a violation of semantic versioning.
 - kettle-jem-template-20260802-001 - Devcontainer JSON files now merge as JSONC,
   preserving comments and trailing commas during template updates.
 
+- kettle-jem-template-20260728-003 - Generated dep-heads workflows now run
+  TruffleRuby jobs with current RubyGems and Bundler, avoiding setup failures
+  before the test suite starts.
+- kettle-jem-template-20260728-004 - Generated dep-heads workflows now use the
+  setup-ruby Bundler install path for direct appraisal Gemfiles, avoiding rv
+  lockfile parser failures on Git and path dependencies.
+- kettle-jem-template-20260729-001 - Generated JRuby 9.4 workflows now use the
+  legacy manual bundle install path, avoiding setup-time Bundler full-index
+  failures against `gem.coop`.
+
 ### Security
 
 ## [2.0.3] - 2024-11-22

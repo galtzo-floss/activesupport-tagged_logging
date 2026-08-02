@@ -1,0 +1,28 @@
+{
+  "Rakefile:3889949531": [
+    [251, 3, 16, "Rake/DuplicateTask: Task `test` is defined at both Rakefile:244 and Rakefile:251.", 850263259],
+    [254, 3, 16, "Rake/DuplicateTask: Task `spec` is defined at both Rakefile:230 and Rakefile:254.", 2494909563]
+  ],
+  "spec/activesupport/tagged_logging/broadcasting_spec.rb:3277960232": [
+    [6, 1, 57, "RSpec/SpecFilePathFormat: Spec path should end with `active_support/tagged_logging/broadcasting*_spec.rb`.", 1213320282]
+  ],
+  "spec/activesupport/tagged_logging_spec.rb:604880833": [
+    [3, 1, 43, "RSpec/SpecFilePathFormat: Spec path should end with `active_support/tagged_logging*_spec.rb`.", 3799542693],
+    [4, 3, 92, "Lint/ConstantDefinitionInBlock: Do not define constants this way within a block.", 4160268232],
+    [4, 3, 92, "RSpec/LeakyConstantDeclaration: Stub class constant instead of declaring explicitly.", 4160268232],
+    [12, 15, 28, "RSpec/DescribedClass: Use `described_class` instead of `ActiveSupport::TaggedLogging`.", 2120788273],
+    [23, 20, 28, "RSpec/DescribedClass: Use `described_class` instead of `ActiveSupport::TaggedLogging`.", 2120788273],
+    [82, 7, 10, "ThreadSafety/NewThread: Avoid starting new threads.", 3411682361],
+    [92, 5, 10, "ThreadSafety/NewThread: Avoid starting new threads.", 3411682361],
+    [102, 20, 28, "RSpec/DescribedClass: Use `described_class` instead of `ActiveSupport::TaggedLogging`.", 2120788273],
+    [114, 20, 28, "RSpec/DescribedClass: Use `described_class` instead of `ActiveSupport::TaggedLogging`.", 2120788273],
+    [127, 7, 10, "ThreadSafety/NewThread: Avoid starting new threads.", 3411682361],
+    [148, 15, 28, "RSpec/DescribedClass: Use `described_class` instead of `ActiveSupport::TaggedLogging`.", 2120788273],
+    [157, 17, 28, "RSpec/DescribedClass: Use `described_class` instead of `ActiveSupport::TaggedLogging`.", 2120788273],
+    [188, 7, 10, "ThreadSafety/NewThread: Avoid starting new threads.", 3411682361],
+    [200, 22, 28, "RSpec/DescribedClass: Use `described_class` instead of `ActiveSupport::TaggedLogging`.", 2120788273],
+    [212, 22, 28, "RSpec/DescribedClass: Use `described_class` instead of `ActiveSupport::TaggedLogging`.", 2120788273],
+    [233, 26, 28, "RSpec/DescribedClass: Use `described_class` instead of `ActiveSupport::TaggedLogging`.", 2120788273],
+    [251, 23, 28, "RSpec/DescribedClass: Use `described_class` instead of `ActiveSupport::TaggedLogging`.", 2120788273]
+  ]
+}
