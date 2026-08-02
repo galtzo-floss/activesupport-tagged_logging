@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+require "version_gem"
+require_relative "tagged_logging/version"
+
 module ActiveSupport
   # = Active Support Tagged Logging
   #
@@ -150,4 +153,8 @@ module ActiveSupport
       super if defined?(super)
     end
   end
+end
+
+ActiveSupport::TaggedLogging::Formatter::Version.class_eval do
+  extend VersionGem::Basic
 end

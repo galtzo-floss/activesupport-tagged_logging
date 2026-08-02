@@ -1,106 +1,12 @@
 {
-  "#   - Ruby 2.7\n#   - Ruby 3.0": [
-    {
-      "file": "Appraisals",
-      "lines": [
-        19,
-        27,
-        36
-      ]
-    }
-  ],
-  "#   - Ruby 3.0\n#   - Ruby 3.1": [
-    {
-      "file": "Appraisals",
-      "lines": [
-        28,
-        37
-      ]
-    }
-  ],
-  "#   - Ruby 3.1\n#   - Ruby 3.2": [
-    {
-      "file": "Appraisals",
-      "lines": [
-        38,
-        46
-      ]
-    }
-  ],
-  "#   - Ruby 3.2\n#   - Ruby 3.3": [
-    {
-      "file": "Appraisals",
-      "lines": [
-        47,
-        55
-      ]
-    }
-  ],
-  "# Compat: Ruby >= 2.5\n# Test Matrix:": [
-    {
-      "file": "Appraisals",
-      "lines": [
-        10,
-        17
-      ]
-    }
-  ],
-  "# Compat: Ruby >= 2.7\n# Test Matrix:": [
-    {
-      "file": "Appraisals",
-      "lines": [
-        25,
-        34
-      ]
-    }
-  ],
-  "# Test Matrix:\n#   - Ruby 2.7": [
-    {
-      "file": "Appraisals",
-      "lines": [
-        4,
-        11,
-        18,
-        26,
-        35
-      ]
-    }
-  ],
   "- 36.36% documented\n### Changed": [
     {
       "file": "CHANGELOG.md",
       "lines": [
-        16,
-        24,
-        34,
-        45
-      ]
-    }
-  ],
-  "appraisal: \"as-8-0\"\ntaskname: \"spec\"": [
-    {
-      "file": ".github/workflows/heads.yml",
-      "lines": [
-        41,
-        49
-      ]
-    }
-  ],
-  "gemfile: \"Appraisal.root\"\nrubygems: latest": [
-    {
-      "file": ".github/workflows/heads.yml",
-      "lines": [
-        43,
-        51
-      ]
-    }
-  ],
-  "if: ${{ github.event_name != 'pull_request' }}\ncontinue-on-error: ${{ matrix.experimental != 'false' }}": [
-    {
-      "file": ".github/workflows/coverage.yml",
-      "lines": [
-        71,
-        79
+        87,
+        95,
+        105,
+        116
       ]
     }
   ],
@@ -108,17 +14,8 @@
     {
       "file": "README.md",
       "lines": [
-        167,
-        177
-      ]
-    }
-  ],
-  "taskname: \"spec\"\ngemfile: \"Appraisal.root\"": [
-    {
-      "file": ".github/workflows/heads.yml",
-      "lines": [
-        42,
-        50
+        180,
+        190
       ]
     }
   ]
