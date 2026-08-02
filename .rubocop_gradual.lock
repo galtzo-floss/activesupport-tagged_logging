@@ -2,7 +2,7 @@
   "bin/bundle:247448467": [
     [64, 5, 20, "ThreadSafety/ClassInstanceVariable: Avoid class instance variables.", 2485198147]
   ],
-  "lib/activesupport/tagged_logging.rb:1806330148": [
+  "lib/activesupport/tagged_logging.rb:1638025348": [
     [107, 7, 71, "Style/ClassMethodsDefinitions: Use `class << self` to define a class method.", 4229885320],
     [113, 5, 94, "Style/ClassMethodsDefinitions: Use `class << self` to define a class method.", 2148076892],
     [117, 5, 568, "Style/ClassMethodsDefinitions: Use `class << self` to define a class method.", 3239447518]

@@ -12,7 +12,7 @@ gemspec
 
 platform :mri do
   # Debugging
-  gem "byebug", ">= 11"
+  gem "debug", require: false
 end
 
 # Linting
