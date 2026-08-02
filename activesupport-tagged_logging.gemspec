@@ -14,8 +14,10 @@ Gem::Specification.new do |spec|
   spec.email = ["peter.boling@gmail.com"]
 
   # See CONTRIBUTING.md
-  spec.cert_chain = [ENV.fetch("GEM_CERT_PATH", "certs/#{ENV.fetch("GEM_CERT_USER", ENV["USER"])}.pem")]
-  spec.signing_key = File.expand_path("~/.ssh/gem-private_key.pem") if $PROGRAM_NAME.end_with?("gem")
+  unless ENV.fetch("SKIP_GEM_SIGNING", "false").casecmp("true").zero?
+    spec.cert_chain = [ENV.fetch("GEM_CERT_PATH", "certs/#{ENV.fetch("GEM_CERT_USER", ENV["USER"])}.pem")]
+    spec.signing_key = File.expand_path("~/.ssh/gem-private_key.pem") if $PROGRAM_NAME.end_with?("gem")
+  end
 
   spec.summary = "Rails v8 ActiveSupport::TaggedLogging, fixed & backported to Rails v5.2+ & Ruby 2.7+"
   spec.description = "Rails v8 ActiveSupport::TaggedLogging, fixed & backported to Rails v5.2+ & Ruby 2.7+"
