@@ -20,6 +20,9 @@ require "activesupport-broadcast_logger"
 # which at the time was the latest version of the file on `main` branch.
 # Compare SHA with latest commit to the same file on `main` to check for changes:
 # https://github.com/rails/rails/blob/main/activesupport/lib/active_support/tagged_logging.rb
+#
+# All this reloading might print warnings about redefined methods, and this is expected.
+# Technically it might even break things, but we don't expect it to, and YMMV.
 require_relative "activesupport/tagged_logging"
 
 # If you want to use the fix in the PR, run:
