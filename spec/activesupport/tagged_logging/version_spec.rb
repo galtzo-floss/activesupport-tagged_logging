@@ -9,6 +9,6 @@ RSpec.describe Activesupport::TaggedLogging::Version do
     ].select { |path| File.file?(path) }
     anonymous_namespace = AnonymousLoader.load(files: paths)
 
-    expect(anonymous_namespace::ActiveSupport::TaggedLogging::Formatter::Version::VERSION).to eq(described_class::VERSION)
+    expect(anonymous_namespace::Activesupport::TaggedLogging::Version::VERSION).to eq(described_class::VERSION)
   end
 end
