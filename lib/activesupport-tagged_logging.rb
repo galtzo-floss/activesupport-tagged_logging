@@ -3,7 +3,6 @@ require "active_support/version"
 require "version_gem"
 
 # This library's version
-require_relative "activesupport/tagged_logging/version"
 
 # Loads supporting features from Rails v5, 6, 7, or 8
 require "active_support/core_ext/module/delegation"
@@ -29,6 +28,7 @@ require_relative "activesupport/tagged_logging"
 #   Activesupport::FixPr53105.init
 # See: https://github.com/rails/rails/pull/53105/files
 require_relative "activesupport/fix_pr_53105"
+require_relative "activesupport/tagged_logging/version"
 
 # Namespace for the Version of this gem (and nothing else)
 module Activesupport
