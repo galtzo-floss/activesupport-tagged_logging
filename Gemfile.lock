@@ -11,7 +11,7 @@ PATH
       version_gem (~> 1.1, >= 1.1.15)
 
 PATH
-  remote: /home/pboling/src/my/galtzo-floss/activesupport-broadcast_logger
+  remote: /var/home/pboling/src/my/galtzo-floss/activesupport-broadcast_logger
   specs:
     activesupport-broadcast_logger (2.0.4)
       activesupport (>= 5.2)
@@ -22,7 +22,7 @@ PATH
       version_gem (~> 1.1, >= 1.1.15)
 
 PATH
-  remote: /home/pboling/src/my/galtzo-floss/activesupport-logger
+  remote: /var/home/pboling/src/my/galtzo-floss/activesupport-logger
   specs:
     activesupport-logger (2.0.3)
       activesupport (>= 5.2)
