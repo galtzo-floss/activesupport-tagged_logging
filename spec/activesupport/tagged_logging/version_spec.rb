@@ -1,6 +1,6 @@
 require "anonymous_loader"
 require "activesupport-tagged_logging"
-RSpec.describe Activesupport::TaggedLogging::Version do
+RSpec.describe ActiveSupport::TaggedLogging::Formatter::Version do
   it_behaves_like "a Version module", described_class
 
   it "executes the version file for coverage without redefining constants" do
@@ -10,6 +10,6 @@ RSpec.describe Activesupport::TaggedLogging::Version do
     ].select { |path| File.file?(path) }
     anonymous_namespace = AnonymousLoader.load(files: paths)
 
-    expect(anonymous_namespace::Activesupport::TaggedLogging::Version::VERSION).to eq(described_class::VERSION)
+    expect(anonymous_namespace::ActiveSupport::TaggedLogging::Formatter::Version::VERSION).to eq(described_class::VERSION)
   end
 end
