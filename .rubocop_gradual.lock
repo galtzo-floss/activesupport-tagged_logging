@@ -3,8 +3,14 @@
     [251, 3, 16, "Rake/DuplicateTask: Task `test` is defined at both Rakefile:244 and Rakefile:251.", 850263259],
     [254, 3, 16, "Rake/DuplicateTask: Task `spec` is defined at both Rakefile:230 and Rakefile:254.", 2494909563]
   ],
+  "gemfiles/modular/templating.gemfile:3018447732": [
+    [14, 3, 47, "Bundler/DuplicatedGem: Gem `tree_sitter_language_pack` requirements already given on line 10 of the Gemfile.", 3843603197]
+  ],
   "spec/activesupport/tagged_logging/broadcasting_spec.rb:3277960232": [
     [6, 1, 57, "RSpec/SpecFilePathFormat: Spec path should end with `active_support/tagged_logging/broadcasting*_spec.rb`.", 1213320282]
+  ],
+  "spec/activesupport/tagged_logging/version_spec.rb:355272498": [
+    [3, 1, 63, "RSpec/SpecFilePathFormat: Spec path should end with `active_support/tagged_logging/formatter/version*_spec.rb`.", 2926747775]
   ],
   "spec/activesupport/tagged_logging_spec.rb:604880833": [
     [3, 1, 43, "RSpec/SpecFilePathFormat: Spec path should end with `active_support/tagged_logging*_spec.rb`.", 3799542693],

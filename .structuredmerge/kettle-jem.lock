@@ -146,7 +146,7 @@ template_state:
     gemfiles/modular/stringio/vHEAD.gemfile.example: e0497ab6dad9667b22725485b781e9d99349a079250eb29cb125d58f01f4a5be
     gemfiles/modular/style.gemfile.example: a15db732f566d958c2459ef549ae3877d984df3d205116e714284d1fe4f9b068
     gemfiles/modular/style_local.gemfile.example: '0083605323d23879dc7223f0198e9f1db24a25fa38730c4dbcc71c7a8a4c307f'
-    gemfiles/modular/templating.gemfile.example: f63e9254dcd76f02406fff515090570d2394dae220faac4f9b3cad6c1a78346a
+    gemfiles/modular/templating.gemfile.example: 3b2db799f879401ec595c54a5c3ca825b1f51a9e8976b932f80f12a06ea9791d
     gemfiles/modular/templating_local.gemfile.example: 84b328af40ee4f9b0355cd5b466f7c7903c49f86e9eb0d1bc3a1f34c8f0f1668
     gemfiles/modular/webrick/r4/v1.9.gemfile.example: 1ee940ff54d5ca3ce7fcff0d82ee9553386979656b9e220d5be5404d0991d5ea
     gemfiles/modular/webrick/vHEAD.gemfile.example: da545f591af987648ffbaba181707480a38dfb375db7d289617986ec2c2ca23b
@@ -727,7 +727,7 @@ files:
     recipe: template_source_application_activesupport_tagged_logging_gemspec
     action: write
     dest_sha256: 8ee77c64eabe24bbdde9daee2196c4f4e3baa17f4a6c7e5ecb77e3143c3805a7
-    input_fingerprint: daf1b52b001b60a6577ffd4ddcaccda46e67dcdc26d7427d8d95815533c3b4a2
+    input_fingerprint: 9dff50038e3f2ca92fc1dbb5fbfa71992228bcaf6177a8659182cb057d7055cb
     template_sources:
     - gem.gemspec.example
   bin/setup:
@@ -957,8 +957,8 @@ files:
   gemfiles/modular/templating.gemfile:
     recipe: template_source_application_gemfiles_modular_templating_gemfile
     action: write
-    dest_sha256: f63e9254dcd76f02406fff515090570d2394dae220faac4f9b3cad6c1a78346a
-    input_fingerprint: 12aa039e0dbfde084b68abba0a9e47df5a05274b9871d82a94865e8bcf644617
+    dest_sha256: 3b2db799f879401ec595c54a5c3ca825b1f51a9e8976b932f80f12a06ea9791d
+    input_fingerprint: 299331c5a952c4b9401837af417267574362327dd578f81e88f33cba9f34b65f
     template_sources:
     - gemfiles/modular/templating.gemfile.example
   gemfiles/modular/templating_local.gemfile:
@@ -1028,7 +1028,7 @@ files:
     recipe: template_source_application_lib_activesupport_tagged_logging_version_rb
     action: write
     dest_sha256: ef578a126c92b6590ef6c618db972c8d577195b4521a29eb73918a98e3887bb5
-    input_fingerprint: f678ca42ffd897727c2690a70a27a0e00eadb60352d7880cd253f4a2b9b18632
+    input_fingerprint: 86bb2443bd4e9774c4b608e61d8579c30777534e71acef5f5e1ae6134425d3f6
     template_sources:
     - lib/gem/version.rb.example
   mise.toml:
