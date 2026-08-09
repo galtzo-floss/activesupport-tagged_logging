@@ -1,6 +1,9 @@
 require "anonymous_loader"
 require "activesupport-tagged_logging"
-RSpec.describe ActiveSupport::TaggedLogging::Formatter::Version do
+# The version spec remains beside the historical runtime path while exercising
+# the standalone gemspec version namespace.
+# rubocop:disable RSpec/SpecFilePathFormat
+RSpec.describe ActiveSupport::TaggedLoggingVersion do
   it_behaves_like "a Version module", described_class
 
   it "executes the version file for coverage without redefining constants" do
@@ -10,6 +13,7 @@ RSpec.describe ActiveSupport::TaggedLogging::Formatter::Version do
     ].select { |path| File.file?(path) }
     anonymous_namespace = AnonymousLoader.load(files: paths)
 
-    expect(anonymous_namespace::ActiveSupport::TaggedLogging::Formatter::Version::VERSION).to eq(described_class::VERSION)
+    expect(anonymous_namespace::ActiveSupport::TaggedLoggingVersion::VERSION).to eq(described_class::VERSION)
   end
 end
+# rubocop:enable RSpec/SpecFilePathFormat

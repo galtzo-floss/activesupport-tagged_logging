@@ -34,6 +34,6 @@ require_relative "activesupport/tagged_logging/version"
 module Activesupport
 end
 
-ActiveSupport::TaggedLogging::Formatter::Version.class_eval do
+ActiveSupport::TaggedLoggingVersion.class_eval do
   extend VersionGem::Basic
 end

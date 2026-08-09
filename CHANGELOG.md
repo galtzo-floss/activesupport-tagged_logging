@@ -99,6 +99,8 @@ Please file a bug if you notice a violation of semantic versioning.
 
 - Restore cross-gem README links for the Active Support logging family.
 
+- Move gemspec version loading out of the Active Support tagged logging module hierarchy.
+
 ### Security
 
 ## [2.0.3] - 2024-11-22

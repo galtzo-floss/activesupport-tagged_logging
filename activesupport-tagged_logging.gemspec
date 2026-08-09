@@ -8,7 +8,7 @@
 
 Gem::Specification.new do |spec|
   spec.name = "activesupport-tagged_logging"
-  spec.version = Module.new.tap { |mod| Kernel.load("#{__dir__}/lib/activesupport/tagged_logging/version.rb", mod) }::ActiveSupport::TaggedLogging::Formatter::Version::VERSION
+  spec.version = Module.new.tap { |mod| Kernel.load("#{__dir__}/lib/activesupport/tagged_logging/version.rb", mod) }::ActiveSupport::TaggedLoggingVersion::VERSION
   spec.authors = ["Peter Boling"]
   spec.email = ["floss@galtzo.com"]
 
