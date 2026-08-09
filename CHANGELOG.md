@@ -97,6 +97,8 @@ Please file a bug if you notice a violation of semantic versioning.
 
 - Refresh generated appraisal and coverage/style harness files for CI.
 
+- Restore cross-gem README links for the Active Support logging family.
+
 ### Security
 
 ## [2.0.3] - 2024-11-22
