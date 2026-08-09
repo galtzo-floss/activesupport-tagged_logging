@@ -4,4 +4,4 @@ source "https://gem.coop"
 
 gem "activesupport", "~> 7.2.2"
 
-gemspec :path => "../"
+gemspec path: "../"
