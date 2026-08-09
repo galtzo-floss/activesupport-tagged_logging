@@ -93,6 +93,8 @@ Please file a bug if you notice a violation of semantic versioning.
 
 - Synchronize LICENSE copyright years with README.md for release validation.
 
+- Refresh generated appraisal and coverage/style harness files for CI.
+
 ### Security
 
 ## [2.0.3] - 2024-11-22

@@ -2,6 +2,8 @@
 
 source "https://gem.coop"
 
-gem "activesupport", "~> 6.0.6.1"
-
 gemspec :path => "../"
+
+eval_gemfile("modular/templating.gemfile")
+
+eval_gemfile("modular/x_std_libs.gemfile")
