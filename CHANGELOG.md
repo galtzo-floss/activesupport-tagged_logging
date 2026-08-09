@@ -91,6 +91,8 @@ Please file a bug if you notice a violation of semantic versioning.
 
 - Fix cross-gem README Markdown references before release.
 
+- Synchronize LICENSE copyright years with README.md for release validation.
+
 ### Security
 
 ## [2.0.3] - 2024-11-22
