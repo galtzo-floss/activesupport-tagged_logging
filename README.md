@@ -433,6 +433,9 @@ Thanks for RTFM. ☺️
 
 [✇bundle-group-pattern]: https://gist.github.com/pboling/4564780
 [⛳️gem-namespace]: https://github.com/galtzo-floss/activesupport-tagged_logging
+[activesupport-logger]: https://github.com/galtzo-floss/activesupport-logger
+[activesupport-broadcast_logger]: https://github.com/galtzo-floss/activesupport-broadcast_logger
+[activesupport-tagged_logging]: https://github.com/galtzo-floss/activesupport-tagged_logging
 [⛳️namespace-img]: https://img.shields.io/badge/namespace-ActiveSupport::TaggedLogging::Formatter-3C2D2D.svg?style=square&logo=ruby&logoColor=white
 [⛳️gem-name]: https://clickgems.clickhouse.com/dashboard/activesupport-tagged_logging
 [⛳️name-img]: https://img.shields.io/badge/name-activesupport--tagged__logging-3C2D2D.svg?style=square&logo=rubygems&logoColor=red
