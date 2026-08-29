@@ -7,15 +7,9 @@ end
 
 module ActiveSupport
   module TaggedLogging
-    module Formatter
-      module Version
-        VERSION: String
-      end
+    module Version
       VERSION: String
     end
-  end
-
-  module TaggedLoggingVersion
     VERSION: String
   end
 end
