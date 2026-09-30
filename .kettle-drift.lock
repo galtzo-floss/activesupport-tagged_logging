@@ -35,6 +35,15 @@
       ]
     }
   ],
+  "exec_cmd: \"kettle-test\"\nrubygems: latest": [
+    {
+      "file": ".github/workflows/current.yml",
+      "lines": [
+        43,
+        49
+      ]
+    }
+  ],
   "is automatically depended on and configured by this gem,\nso you don't need to do anything else.": [
     {
       "file": "README.md",
