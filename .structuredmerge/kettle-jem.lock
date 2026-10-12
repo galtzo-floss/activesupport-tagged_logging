@@ -652,7 +652,7 @@ files:
   CHANGELOG.md:
     recipe: template_source_application_CHANGELOG_md
     action: write
-    dest_sha256: c62e7d432f2ee964f91de19000493bdd9383c2d40830944f7264c0afc41005ca
+    dest_sha256: 54dd6925b0ca84dd232a759ce955e7293b282979b87008a58c60a0fd520aed87
     input_fingerprint: 27fbf6c363db3cd683680de743eeb0daebb995b0eabb64300204713f65277b24
     template_sources:
     - CHANGELOG.md.example
@@ -835,7 +835,7 @@ files:
     recipe: template_source_application_gemfiles_modular_documentation_gemfile
     action: write
     dest_sha256: aa27f5b1f8bcccfc9e92c13e7f40cae73a9ae0f58df872a328a16da2d61b9f40
-    input_fingerprint: 72c25f541209b5b5e7ef4de0fc95bc73a81a4baf3e8ce4a478508c7df1a09044
+    input_fingerprint: 2fc4bec2518550c21949c7158d18ef34abd50055e57e804a20ec4089078e2567
     template_sources:
     - gemfiles/modular/documentation.gemfile.example
   gemfiles/modular/documentation_local.gemfile:
