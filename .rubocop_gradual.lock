@@ -3,8 +3,11 @@
     [257, 3, 16, "Rake/DuplicateTask: Task `test` is defined at both Rakefile:250 and Rakefile:257.", 850263259],
     [260, 3, 16, "Rake/DuplicateTask: Task `spec` is defined at both Rakefile:236 and Rakefile:260.", 2494909563]
   ],
-  "activesupport-tagged_logging.gemspec:2851811762": [
+  "activesupport-tagged_logging.gemspec:2848583653": [
     [19, 32, 10, "Gemspec/RequiredRubyVersion: `required_ruby_version` and `TargetRubyVersion` (2.7, which may be specified in .rubocop.yml) should be equal.", 4072465588]
+  ],
+  "gemfiles/modular/style_local.gemfile:1858046555": [
+    [71, 23, 20, "Style/SafeNavigation: Use safe navigation (`&.`) instead of checking if an object exists before calling the method.", 1851388465]
   ],
   "spec/activesupport/tagged_logging/broadcasting_spec.rb:3277960232": [
     [6, 1, 57, "RSpec/SpecFilePathFormat: Spec path should end with `active_support/tagged_logging/broadcasting*_spec.rb`.", 1213320282]
