@@ -2,7 +2,7 @@
 version: 1
 template_state:
   version: 7.1.38
-  applied_at: '2026-10-21'
+  applied_at: '2026-10-22'
   changelog_replay:
     last_entry_key: kettle-jem-template-20260913-001
     last_entry_date: '2026-09-13'
@@ -53,6 +53,7 @@ template_state:
     - CONTRIBUTING.md
     - Gemfile
     - README.md
+    - activesupport-tagged_logging.gemspec
     - bin/turbo_tests2
     - gemfiles/modular/coverage_local.gemfile
     - gemfiles/modular/documentation.gemfile
@@ -719,8 +720,8 @@ files:
   README.md:
     recipe: template_source_application_README_md
     action: write
-    dest_sha256: c0efd27ef21c2da081ab6749fc4dc4fcc0859ae3091ba3e726af5bf8c9437570
-    input_fingerprint: 05ee7a710ec8458670339f23ab6c276d876da90e52c7456e3ca0efd4b7d2f967
+    dest_sha256: 910990bb8dd4f298ba0b44d570c3316ca2be6f79c00cd1e0ccb0b70aaf1074db
+    input_fingerprint: 138687e59691a008254eda24d0ca4e962829e97a0b9958f4a4dcdb897013d2e7
     template_sources:
     - README.md.example
   REEK:
@@ -754,8 +755,8 @@ files:
   activesupport-tagged_logging.gemspec:
     recipe: template_source_application_activesupport_tagged_logging_gemspec
     action: write
-    dest_sha256: 88c80c20ac46862a4389dc4e51ac14c438dfc6e1497bc77dbd2ce54f18c56df7
-    input_fingerprint: afabe6741cb2173af087225b70d4661cfaaa0f7b55745ac3027ebc0f12eeb5af
+    dest_sha256: 970ff027c22f65b917eb9bf380bb2755f660c1a7313fd9c28a6ff8d71a101b6c
+    input_fingerprint: 337d377c91bbec8bf8639a9c4534458a8117a3fe245922fb2c286711eca56d75
     template_sources:
     - gem.gemspec.example
   bin/setup:
